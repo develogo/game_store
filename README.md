@@ -1,16 +1,32 @@
-# carousel_slide
+<p align="center">
+ <img width="100" src="#/assets/logo.png" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">Game Store</h2>
+ <p align="center">Game Store App
 
-A new Flutter project.
 
-## Getting Started
+  <p align="center">
+    <a href="#demo">App demo</a>
+  </p>  
+</p>
+<p align="center">Love the project? Give me a star!
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<p>
+<img src="#/assets/logo.png" alt="Todo" width="200" />
+</a>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Application built in Flutter based on [Design](https://dribbble.com/shots/17778901-Game-Store-App/attachments/12946824?mode=media).<br />
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Demo
+
+
+<img src="#/assets/screens/spash.jpeg" width="220"/> 
+<img src="#/assets/screens/home.jpeg" width="220"/> 
+
+
+---
+Contributions are welcome! <3
+
+Made with :heart: and Flutter.
