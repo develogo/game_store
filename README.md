@@ -23,8 +23,8 @@ Application built in Flutter based on [Design](https://dribbble.com/shots/177789
 # Demo
 
 
-<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/splash.jpeg" width="220"/> 
-<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/home.jpeg" width="220"/> 
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/demo.png" width="800"/> 
+
 
 
 ---
