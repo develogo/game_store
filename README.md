@@ -1,5 +1,6 @@
+
 <p align="center">
- <img width="100" src="#/assets/logo.png" align="center" alt="GitHub Readme Stats" />
+ <img width="100" src="https://raw.githubusercontent.com/develogo/game_store/main/assets/logo.png" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Game Store</h2>
  <p align="center">Game Store App
 
@@ -12,7 +13,7 @@
 
 
 <p>
-<img src="#/assets/logo.png" alt="Todo" width="200" />
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/logo.png" alt="Logo" width="400" />
 </a>
 
 Application built in Flutter based on [Design](https://dribbble.com/shots/17778901-Game-Store-App/attachments/12946824?mode=media).<br />
@@ -22,8 +23,8 @@ Application built in Flutter based on [Design](https://dribbble.com/shots/177789
 # Demo
 
 
-<img src="#/assets/screens/spash.jpeg" width="220"/> 
-<img src="#/assets/screens/home.jpeg" width="220"/> 
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/splash.jpeg" width="220"/> 
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/home.jpeg" width="220"/> 
 
 
 ---
