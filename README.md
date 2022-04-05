@@ -31,3 +31,6 @@ Application built in Flutter based on [Design](https://dribbble.com/shots/177789
 Contributions are welcome! <3
 
 Made with :heart: and Flutter.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
