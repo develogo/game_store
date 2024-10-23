@@ -16,6 +16,7 @@ dependencies:
   flutter_lints: ^4.0.0
   google_fonts: ^6.2.1
   flutter_iconly: ^1.0.2
+  device_frame: ^1.2.0
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,7 @@
+import 'package:device_frame/device_frame.dart';
 import 'package:flutter/material.dart';
-
-import 'src/splash/splash_page.dart';
+import 'package:game_store/src/home/home_page.dart';
+import 'package:game_store/src/splash/splash_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,18 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SplashPage(),
+      routes: {
+        '/': (context) => const SplashPage(),
+        '/home': (context) => const MyHomePage(),
+      },
+      builder: (context, child) {
+        return DeviceFrame(
+          device: Devices.ios.iPhone13ProMax,
+          orientation: Orientation.portrait,
+          isFrameVisible: true,
+          screen: child!,
+        );
+      },
     );
   }
 }

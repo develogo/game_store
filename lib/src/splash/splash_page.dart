@@ -3,8 +3,6 @@ import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:game_store/src/widgets/white_button_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../home/home_page.dart';
-
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
 
@@ -60,8 +58,7 @@ class _SplashPageState extends State<SplashPage> {
               title: 'Next  >',
               radius: 25,
               fontSize: 14,
-              onPressed: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const MyHomePage())),
+              onPressed: () => Navigator.pushNamed(context, '/home'),
             ),
           )
         ],
