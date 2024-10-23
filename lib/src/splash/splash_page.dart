@@ -59,7 +59,8 @@ class _SplashPageState extends State<SplashPage> {
               title: 'Next  >',
               radius: 25,
               fontSize: 14,
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const MyHomePage())),
+              onPressed: () => Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const MyHomePage())),
             ),
           )
         ],

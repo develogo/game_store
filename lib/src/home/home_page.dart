@@ -109,17 +109,35 @@ class _MyHomePageState extends State<MyHomePage> {
                   const SizedBox(height: 12),
                   CarouselListWidget(
                     games: [
-                      Game(name: 'Rainbow Six', evaluation: 4.5, assetImage: 'assets/games/rainbow.jpg'),
-                      Game(name: 'Cyber Punk', evaluation: 4.8, assetImage: 'assets/games/cyber-punk.png'),
-                      Game(name: 'Horizon Zero Down', evaluation: 4.5, assetImage: 'assets/games/horizon.jpg'),
+                      Game(
+                          name: 'Rainbow Six',
+                          evaluation: 4.5,
+                          assetImage: 'assets/games/rainbow.jpg'),
+                      Game(
+                          name: 'Cyber Punk',
+                          evaluation: 4.8,
+                          assetImage: 'assets/games/cyber-punk.png'),
+                      Game(
+                          name: 'Horizon Zero Down',
+                          evaluation: 4.5,
+                          assetImage: 'assets/games/horizon.jpg'),
                     ],
                   ),
                   const SizedBox(height: 22),
                   CarouselListWidget(
                     games: [
-                      Game(name: 'God of War Ragnarök', evaluation: 4.5, assetImage: 'assets/games/god.jpg'),
-                      Game(name: 'Watch Dogs: Legion', evaluation: 4.8, assetImage: 'assets/games/watch-dogs-legion.png'),
-                      Game(name: 'Elden Ring', evaluation: 4.5, assetImage: 'assets/games/elder.jpg'),
+                      Game(
+                          name: 'God of War Ragnarök',
+                          evaluation: 4.5,
+                          assetImage: 'assets/games/god.jpg'),
+                      Game(
+                          name: 'Watch Dogs: Legion',
+                          evaluation: 4.8,
+                          assetImage: 'assets/games/watch-dogs-legion.png'),
+                      Game(
+                          name: 'Elden Ring',
+                          evaluation: 4.5,
+                          assetImage: 'assets/games/elder.jpg'),
                     ],
                   ),
                   const SizedBox(height: 30),

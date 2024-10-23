@@ -11,7 +11,8 @@ class CustomAppBarWidget extends StatelessWidget {
         child: Row(
           children: [
             const CircleAvatar(
-              backgroundImage: NetworkImage('https://avatars.githubusercontent.com/u/18041980?s=400&u=4c19317da1572e5b0958e52b7896b279dcbe70fe&v=4'),
+              backgroundImage: NetworkImage(
+                  'https://avatars.githubusercontent.com/u/18041980?s=400&u=4c19317da1572e5b0958e52b7896b279dcbe70fe&v=4'),
             ),
             const SizedBox(width: 24),
             Column(

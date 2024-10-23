@@ -51,9 +51,16 @@ class BannerWidget extends StatelessWidget {
               child: RichText(
                 text: TextSpan(
                   text: 'PUSH YOUR\n',
-                  style: GoogleFonts.ramabhadra(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 24, height: .95),
+                  style: GoogleFonts.ramabhadra(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 24,
+                      height: .95),
                   children: const <TextSpan>[
-                    TextSpan(text: 'RANK', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 52)),
+                    TextSpan(
+                        text: 'RANK',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 52)),
                   ],
                 ),
               ),
