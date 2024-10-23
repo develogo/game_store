@@ -1,16 +1,29 @@
-# game_store
+<p align="center">
+ <img width="100" src="https://raw.githubusercontent.com/develogo/game_store/main/assets/logo.png" align="center" alt="Game Store Logo" />
+ <h2 align="center">Game Store</h2>
+ <p align="center">Game Store App</p>
 
-A new Flutter project.
+  <p align="center">
+    <a href="https://gamestore.develogo.dev">App Demo</a>
+  </p>  
+</p>
 
-## Getting Started
+<p align="center">Love the project? Give it a star! ⭐</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/logo.png" alt="Logo" width="400" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+Application built in Flutter based on this [Design](https://dribbble.com/shots/17778901-Game-Store-App/attachments/12946824?mode=media).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Demo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+<img src="https://raw.githubusercontent.com/develogo/game_store/main/assets/screens/demo.png" width="800"/> 
+</p>
+
+---
+
+Contributions are welcome! ❤️
+
+Made with :heart: and Flutter.
