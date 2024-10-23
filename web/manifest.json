@@ -1,6 +1,6 @@
 {
-    "name": "carousel_slide",
-    "short_name": "carousel_slide",
+    "name": "game_store",
+    "short_name": "game_store",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,13 +1,13 @@
-import 'package:game_store/src/widgets/white_button_widget.dart';
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
+import 'package:flutter/material.dart';
+import 'package:game_store/src/widgets/white_button_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CarouselListWidget extends StatefulWidget {
   final List<Game> games;
 
-  const CarouselListWidget({Key? key, required this.games}) : super(key: key);
+  const CarouselListWidget({super.key, required this.games});
 
   @override
   State<CarouselListWidget> createState() => _CarouselListWidgetState();
@@ -40,12 +40,15 @@ class _CarouselListWidgetState extends State<CarouselListWidget> {
           return ValueListenableBuilder(
               valueListenable: scrollOffSet,
               builder: (context, value, child) {
-                double teste = math.exp(-math.pow(scrollOffSet.value - index, -4) / widget.games.length) / .5;
+                double teste = math.exp(
+                        -math.pow(scrollOffSet.value - index, -4) /
+                            widget.games.length) /
+                    .5;
                 final game = widget.games[index];
                 return Align(
                   alignment: Alignment(0, -teste),
                   child: Container(
-                    height: 218,
+                    height: 220,
                     width: 232,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(22),
@@ -71,7 +74,10 @@ class _CarouselListWidgetState extends State<CarouselListWidget> {
                         const SizedBox(height: 14),
                         Text(
                           game.name,
-                          style: const TextStyle(color: Colors.white, fontSize: 22),
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                          ),
                         ),
                         const Spacer(),
                         Row(
@@ -79,12 +85,15 @@ class _CarouselListWidgetState extends State<CarouselListWidget> {
                             const Icon(Icons.star, color: Colors.amber),
                             Text(
                               game.evaluation.toString(),
-                              style: GoogleFonts.lato(color: Colors.white, fontSize: 18, fontWeight: FontWeight.normal),
+                              style: GoogleFonts.lato(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.normal),
                             ),
                             const Spacer(),
                             WhiteButtonWidget(
                               title: 'Install',
-                              fontSize: 14,
+                              fontSize: 12,
                               height: 28,
                             )
                           ],
