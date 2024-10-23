@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CodeTextField extends StatelessWidget {
-  const CodeTextField({Key? key}) : super(key: key);
+  const CodeTextField({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,6 +9,8 @@ class CodeTextField extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 18),
       child: Container(
         width: double.maxFinite,
+        height: 66.0,
+        decoration: kGradientBoxDecoration,
         child: Padding(
           padding: const EdgeInsets.all(1.4),
           child: Container(
@@ -25,8 +27,6 @@ class CodeTextField extends StatelessWidget {
             ),
           ),
         ),
-        height: 66.0,
-        decoration: kGradientBoxDecoration,
       ),
     );
   }

@@ -1,14 +1,13 @@
+import 'package:flutter/material.dart';
 import 'package:game_store/src/widgets/bannet_wideget.dart';
 import 'package:game_store/src/widgets/bottom_bat_widget.dart';
 import 'package:game_store/src/widgets/carousel_list_widget.dart';
 import 'package:game_store/src/widgets/code_textfield_widget.dart';
 import 'package:game_store/src/widgets/custom_app_bar_widget.dart';
-
-import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();

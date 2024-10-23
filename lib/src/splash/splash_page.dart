@@ -6,7 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../home/home_page.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({Key? key}) : super(key: key);
+  const SplashPage({super.key});
 
   @override
   State<SplashPage> createState() => _SplashPageState();
@@ -18,11 +18,11 @@ class _SplashPageState extends State<SplashPage> {
     final size = MediaQuery.of(context).size;
 
     return Scaffold(
-      backgroundColor: Color(0xff6c72e9),
+      backgroundColor: const Color(0xff6c72e9),
       body: Stack(
         children: [
           Transform.translate(
-            offset: Offset(0, 20),
+            offset: const Offset(0, 20),
             child: Align(
               alignment: Alignment.bottomLeft,
               child: Image.asset(
@@ -46,7 +46,8 @@ class _SplashPageState extends State<SplashPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(IconlyLight.arrowLeft2, color: Colors.white, size: 36),
+                  const Icon(IconlyLight.arrowLeft2,
+                      color: Colors.white, size: 36),
                   Text('Skip', style: GoogleFonts.lato(color: Colors.white)),
                 ],
               ),

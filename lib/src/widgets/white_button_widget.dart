@@ -10,14 +10,14 @@ class WhiteButtonWidget extends StatelessWidget {
   final VoidCallback? onPressed;
 
   WhiteButtonWidget({
-    Key? key,
+    super.key,
     this.height = 36,
     this.width,
     required this.title,
     this.fontSize = 18,
     this.radius = 8.0,
     this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
