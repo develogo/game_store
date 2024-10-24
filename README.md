@@ -26,4 +26,4 @@ Application built in Flutter based on this [Design](https://dribbble.com/shots/1
 
 Contributions are welcome! ❤️
 
-Made with :heart: and Flutter.
+Made with Flutter.
