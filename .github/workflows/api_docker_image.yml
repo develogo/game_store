@@ -27,7 +27,7 @@ jobs:
         uses: ./git-actions/actions/build_push_and_update_stacks
         with:
           image_name: game-store
-          image_repo: develogo/game-store
+          image_repo: develogo/game_store
           stacks_repo: develogo/stacks
           stacks_compose_path: stacks/flutter-demos/docker-compose.yml
           stacks_repo_token: ${{ secrets.STACKS_REPO_TOKEN }}
