@@ -26,8 +26,8 @@ jobs:
       - name: Build, push and open PR in stacks
         uses: ./git-actions/actions/build_push_and_update_stacks
         with:
-          image_name: portfolio
-          image_repo: develogo/portfolio
+          image_name: game-store
+          image_repo: develogo/game-store
           stacks_repo: develogo/stacks
           stacks_compose_path: stacks/flutter-demos/docker-compose.yml
           stacks_repo_token: ${{ secrets.STACKS_REPO_TOKEN }}
