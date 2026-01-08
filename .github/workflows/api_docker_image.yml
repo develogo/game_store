@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout app repo
+        uses: actions/checkout@v4
+
+      - name: Checkout git-actions
+        uses: actions/checkout@v4
+        with:
+          repository: develogo/git-actions
+          token: ${{ secrets.STACKS_REPO_TOKEN }}
+          path: git-actions
+
+      - name: Build, push and open PR in stacks
+        uses: ./git-actions/actions/build_push_and_update_stacks
+        with:
+          image_name: portfolio
+          image_repo: develogo/portfolio
+          stacks_repo: develogo/stacks
+          stacks_compose_path: stacks/flutter-demos/docker-compose.yml
+          stacks_repo_token: ${{ secrets.STACKS_REPO_TOKEN }}
+          dockerfile_path: Dockerfile
+          context: .
+          platforms: linux/amd64
+          enable_qemu: auto
+
